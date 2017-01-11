@@ -10,6 +10,16 @@
 		21ACD02D1E26319B001FC265 /* SKCustomClass+Extensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21ACD0231E26319B001FC265 /* SKCustomClass+Extensions.framework */; };
 		21ACD0321E26319B001FC265 /* SKCustomClass_ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ACD0311E26319B001FC265 /* SKCustomClass_ExtensionsTests.swift */; };
 		21ACD0341E26319B001FC265 /* SKCustomClass+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 21ACD0261E26319B001FC265 /* SKCustomClass+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21ACD0471E26373B001FC265 /* SKCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ACD0401E26373B001FC265 /* SKCustom.swift */; };
+		21ACD0481E26373B001FC265 /* SKTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ACD0411E26373B001FC265 /* SKTextField.swift */; };
+		21ACD0491E26373B001FC265 /* SKErrorAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ACD0421E26373B001FC265 /* SKErrorAlert.swift */; };
+		21ACD04A1E26373B001FC265 /* SKNetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ACD0431E26373B001FC265 /* SKNetworkReachability.swift */; };
+		21ACD04B1E26373B001FC265 /* SKValidations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ACD0441E26373B001FC265 /* SKValidations.swift */; };
+		21ACD04C1E26373B001FC265 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21ACD0451E26373B001FC265 /* DropDownCell.xib */; };
+		21ACD04D1E26373B001FC265 /* SKDropdownList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ACD0461E26373B001FC265 /* SKDropdownList.swift */; };
+		21ACD0501E263743001FC265 /* EasyTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ACD04E1E263743001FC265 /* EasyTipView.swift */; };
+		21ACD0511E263743001FC265 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ACD04F1E263743001FC265 /* UIKitExtensions.swift */; };
+		21ACD0531E26374A001FC265 /* SK_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ACD0521E26374A001FC265 /* SK_Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +39,16 @@
 		21ACD02C1E26319B001FC265 /* SKCustomClass+ExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SKCustomClass+ExtensionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21ACD0311E26319B001FC265 /* SKCustomClass_ExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKCustomClass_ExtensionsTests.swift; sourceTree = "<group>"; };
 		21ACD0331E26319B001FC265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21ACD0401E26373B001FC265 /* SKCustom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKCustom.swift; sourceTree = "<group>"; };
+		21ACD0411E26373B001FC265 /* SKTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTextField.swift; sourceTree = "<group>"; };
+		21ACD0421E26373B001FC265 /* SKErrorAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKErrorAlert.swift; sourceTree = "<group>"; };
+		21ACD0431E26373B001FC265 /* SKNetworkReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKNetworkReachability.swift; sourceTree = "<group>"; };
+		21ACD0441E26373B001FC265 /* SKValidations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKValidations.swift; sourceTree = "<group>"; };
+		21ACD0451E26373B001FC265 /* DropDownCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropDownCell.xib; sourceTree = "<group>"; };
+		21ACD0461E26373B001FC265 /* SKDropdownList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKDropdownList.swift; sourceTree = "<group>"; };
+		21ACD04E1E263743001FC265 /* EasyTipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyTipView.swift; sourceTree = "<group>"; };
+		21ACD04F1E263743001FC265 /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
+		21ACD0521E26374A001FC265 /* SK_Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SK_Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +91,9 @@
 		21ACD0251E26319B001FC265 /* SKCustomClass+Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				21ACD03F1E2636CE001FC265 /* HELPER */,
+				21ACD03E1E2636CB001FC265 /* CLASSES */,
+				21ACD03D1E2636C8001FC265 /* EXTESIONS */,
 				21ACD0261E26319B001FC265 /* SKCustomClass+Extensions.h */,
 				21ACD0271E26319B001FC265 /* Info.plist */,
 			);
@@ -84,6 +107,37 @@
 				21ACD0331E26319B001FC265 /* Info.plist */,
 			);
 			path = "SKCustomClass+ExtensionsTests";
+			sourceTree = "<group>";
+		};
+		21ACD03D1E2636C8001FC265 /* EXTESIONS */ = {
+			isa = PBXGroup;
+			children = (
+				21ACD0521E26374A001FC265 /* SK_Extensions.swift */,
+			);
+			name = EXTESIONS;
+			sourceTree = "<group>";
+		};
+		21ACD03E1E2636CB001FC265 /* CLASSES */ = {
+			isa = PBXGroup;
+			children = (
+				21ACD0401E26373B001FC265 /* SKCustom.swift */,
+				21ACD0411E26373B001FC265 /* SKTextField.swift */,
+				21ACD0421E26373B001FC265 /* SKErrorAlert.swift */,
+				21ACD0431E26373B001FC265 /* SKNetworkReachability.swift */,
+				21ACD0441E26373B001FC265 /* SKValidations.swift */,
+				21ACD0451E26373B001FC265 /* DropDownCell.xib */,
+				21ACD0461E26373B001FC265 /* SKDropdownList.swift */,
+			);
+			name = CLASSES;
+			sourceTree = "<group>";
+		};
+		21ACD03F1E2636CE001FC265 /* HELPER */ = {
+			isa = PBXGroup;
+			children = (
+				21ACD04E1E263743001FC265 /* EasyTipView.swift */,
+				21ACD04F1E263743001FC265 /* UIKitExtensions.swift */,
+			);
+			name = HELPER;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21ACD04C1E26373B001FC265 /* DropDownCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +253,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21ACD04B1E26373B001FC265 /* SKValidations.swift in Sources */,
+				21ACD0471E26373B001FC265 /* SKCustom.swift in Sources */,
+				21ACD0501E263743001FC265 /* EasyTipView.swift in Sources */,
+				21ACD0531E26374A001FC265 /* SK_Extensions.swift in Sources */,
+				21ACD04D1E26373B001FC265 /* SKDropdownList.swift in Sources */,
+				21ACD0491E26373B001FC265 /* SKErrorAlert.swift in Sources */,
+				21ACD0481E26373B001FC265 /* SKTextField.swift in Sources */,
+				21ACD0511E263743001FC265 /* UIKitExtensions.swift in Sources */,
+				21ACD04A1E26373B001FC265 /* SKNetworkReachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +424,7 @@
 		21ACD03B1E26319B001FC265 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = R2KLWFPTT2;
 				INFOPLIST_FILE = "SKCustomClass+ExtensionsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +437,7 @@
 		21ACD03C1E26319B001FC265 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = R2KLWFPTT2;
 				INFOPLIST_FILE = "SKCustomClass+ExtensionsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
